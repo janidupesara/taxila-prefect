@@ -1,0 +1,56 @@
+.navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    display: flex;
+    z-index: 2;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-left{
+    width:100px;    
+    background-color: gray;
+}
+.box-middle{
+    flex-grow: 1;
+    background-color:gray;
+}
+.box-right{
+    width:100px;    
+    background-color: gray;
+}
+
+.logos{
+    width:100px;
+    height: 100px;
+}
+.container{
+    position: absolute;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+}
+
+.box-left2{
+    flex-grow: 1;
+    background-color:lightblue;
+    left: 0px;
+}
+
+.box-middle2{
+    min-width: 700px;
+    background-color: aqua;
+}
+.box-right2{
+    flex-grow: 1;
+    background-color:lightblue;
+    right: 0px;
+}
+
