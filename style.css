@@ -19,6 +19,7 @@
 .box-middle{
     flex-grow: 1;
     background-color:gray;
+    font-size: 30px;
 }
 .box-right{
     width:100px;    
@@ -45,12 +46,27 @@
 }
 
 .box-middle2{
-    min-width: 700px;
-    background-color: aqua;
+    min-width: 900px;
+    background-color:white;
 }
 .box-right2{
     flex-grow: 1;
     background-color:lightblue;
     right: 0px;
 }
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    
+}
+button{
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    color: gray;
 
+}
