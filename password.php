@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>taxila prifect guild</title>
@@ -18,18 +18,21 @@
             <div class="box-middle2">
                 <div class="container3">
                     <div class="centerbox">
-                        <label for="password">password</label>
-                        <input type="password" name="password" id="password">
+                        <div>
+                            <label for="password">password</label>
+                            <input type="password" name="password" id="password">
+
+                            <br><br>
+                            <a href="enterduty.php">
+                                <button>confirm</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="box-right2"></div>
 
         </div>
-
-     
-        
-        
     </body>
 
 </html>
