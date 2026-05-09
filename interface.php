@@ -17,10 +17,10 @@
             <div class="box-left2"></div>
             <div class="box-middle2">
                 <div class="container2">
-                    <a href="password.html">
+                    <a href="password.php">
                         <button >admin </button>
                     </a>
-                    <a href="prefectid.html">
+                    <a href="prefectid.php">
                         <button > prefect </button>
                     </a>
                     
