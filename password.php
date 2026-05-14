@@ -23,7 +23,7 @@
                             <input type="password" name="password" id="password">
 
                             <br><br>
-                            <a href="enterduty.php">
+                            <a href="admin.php">
                                 <button>confirm</button>
                             </a>
                         </div>
